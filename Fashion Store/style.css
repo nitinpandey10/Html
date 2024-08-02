@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+}
+a{
+    text-decoration: none;
+}
+.header-section{
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    width: 100%;
+    height: 120px;
+    font-size:x-large;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    padding: 4rem;
+    display: flex;
+    
+    justify-content: space-between;
+    overflow: hidden;
+    object-fit: fill;
+    flex-wrap: wrap;
+   
+}
+.navbar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: all 2s linear 0s;
+}
+.navbar img:hover{
+    scale: 1.5;
+    padding-bottom: 1.5rem;
+}
+.navbar a{
+    font-size: x-large;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+.main-section{
+    /* background: lightgrey;
+     */
+     /* background-color: #ffdad8;
+     background-image: linear-gradient(19deg, #ffdad8 0%, #DDD6F3 100%); */
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.screen{
+    width: 90%;
+    height: 650px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.screen img{
+    /* object-fit: fill; */
+    width: 100%;
+    height: 70.5vh;
+    object-fit: cover;
+    opacity: 70%;
+}
+ th, td{
+    border: 1px solid black;
+}
+table{
+    margin-top: 20px;
+    width: 90vh;
+    height: 320px; 
+    /* padding: 2rem; */
+    border-collapse: collapse;
+}
+.chart{
+    font-size: 1.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* height: 900px; */
+    /* object-fit: fill; */
+}
+/* .chart h2{
+    color: #4dec;
+} */
+tr{
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+}
+.chart th{
+    background: #806bdc;
+}
+footer{
+    color: azure;
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: center;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+}
+.information-section{
+    padding: 1.5rem;
+}
+.information-section h2{
+    padding-bottom: 1rem;
+    color: rgb(110, 102, 102);
+    font-size: 2rem;
+}
+.information-section p{
+    color: rgb(138, 132, 132);
+    font-size: 1.2rem;
+}
+.information-section ul{
+    padding: 1.2rem;
+    color: rgb(138, 132, 132);
+    font-size: 1.2rem;
+}
