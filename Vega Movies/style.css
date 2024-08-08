@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* background: rgb(7, 14, 8); */
+}
+a{
+    color: #fff;
+}
+.vega-logo{
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.logo-image{
+    height: 110px;
+    width: 600px;
+}
+.navbar{
+    background: #abb8c3;
+    height: 3.2rem;
+    /* width: 100%; */
+    background: #abb8c3;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a{
+    margin: 1.1rem;
+    font-size: 1.12rem;
+    margin-left: 2rem;
+}
+.search1{
+    height: 1.8rem;
+    margin-right: 2rem;
+}
+/* .search-box{
+    border: none;
+} */
+.search-box1{
+    width: 100%;
+    height: 3rem;
+    font-size: large;
+    margin-top: 3rem ;
+    /* border: none; */
+}
+.operations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem ;
+    margin-bottom: 1rem;
+}
+.button1{
+    border: none;
+    background: #00d084;
+    font-size: 1.7rem;
+    padding: 0.45rem;
+    margin: 1rem;
+    color: antiquewhite;
+    border-radius:5px;
+
+
+}
+
+.button2{
+    border: none;
+    background: #ff6900;
+    font-size: 1.7rem;
+    padding: 0.45rem;
+    margin: 1rem;
+    color: antiquewhite;
+    border-radius:5px;
+
+}
+.button3{
+    border: none;
+    background: #0693e3;
+    font-size: 1.7rem;
+    padding: 0.45rem;
+    margin: 1rem;
+    color: antiquewhite;
+    border-radius:5px;
+
+
+}
+.button4{
+    border: none;
+    background: #fcb900;
+    font-size: 1.7rem;
+    padding: 0.45rem;
+    margin: 1rem;
+    color: antiquewhite;
+    border-radius:5px;
+
+}
+.categories{
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* margin-bottom: 0.6rem; */
+}
+.categories2{
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+.op{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: fill;
+    background: #cf2e2e;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.8rem;
+    border: none;
+    height: 2rem;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.description{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    height: 3rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 600px;
+
+}
+.card-section{
+    border: 1px solid black;
+    margin: 2.8rem;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    overflow: hidden;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.card-image{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.para1{
+    margin-bottom: 0.8rem;
+}
+.footer-section{
+    background: rgb(5, 11, 19);
+
+}
+.footer-section hr{
+    color: white;
+}
+.footer-section h2{
+    margin-top: 0.4rem;
+    font-size: 1.5rem;
+}
+.copyright{
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: white;
+    flex-direction: column;
+}
+.contact{
+    /* gap: 1rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
